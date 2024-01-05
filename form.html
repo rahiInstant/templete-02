@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style/common.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Table.html">Table</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="video.html">video</a></li>
+          <li><a href="audio.html">Audio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h3>Please fill- up the form</h3>
+      <form>
+        <label for="name">
+          Your name:
+          <input type="text" name="name" id="name" placeholder="your name" />
+        </label>
+        <label for="email"
+          >Your E- mail:
+          <input
+            type="email"
+            name="mail"
+            id="email"
+            placeholder="your e- mail"
+          />
+        </label>
+        <label for="phone"
+          >Your Phone:
+          <input type="tel" name="phone" id="phone" placeholder="your phone" />
+        </label>
+        <fieldset id="class">
+          <legend>which class do you reading?</legend>
+          <label for="one">
+            <input type="radio" name="class" id="one" />
+            Class one
+          </label>
+          <label for="two">
+            <input type="radio" name="class" id="two" />
+            Class two
+          </label>
+          <label for="three">
+            <input type="radio" name="class" id="three" />
+            Class three
+          </label>
+          <label for="four">
+            <input type="radio" name="class" id="four" />
+            Class four
+          </label>
+          <label for="five">
+            <input type="radio" name="class" id="five" />
+            Class five
+          </label>
+        </fieldset>
+        <fieldset id="age">
+          <legend>input your age</legend>
+          <label for="first">
+            <input type="checkbox" name="age" id="first" /> 10- 15 years
+          </label>
+          <label for="second">
+            <input type="checkbox" name="age" id="second" /> 15- 20 years
+          </label>
+          <label for="third">
+            <input type="checkbox" name="age" id="third" /> 20- 25 years
+          </label>
+          <label for="fourth">
+            <input type="checkbox" name="age" id="fourth" /> 25- 30 years
+          </label>
+          <label for="fifth">
+            <input type="checkbox" name="age" id="fifth" /> 30- 35 years
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Add more instruction</legend>
+          <textarea name="" id="" cols="50" rows="2"></textarea>
+        </fieldset>
+        <input type="reset" value="reset" />
+        <input type="submit" value="submit" />
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
